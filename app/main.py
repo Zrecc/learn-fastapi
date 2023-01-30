@@ -10,7 +10,7 @@ from .config import settings
 app = FastAPI()
 
 origins = [
-  'https://www.google.com'
+  '*'
 ]
 
 app.add_middleware(
