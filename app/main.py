@@ -28,4 +28,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Bobo Chua"}
+    return {"message": "Finding GF for Tan Kok Feeng"}
